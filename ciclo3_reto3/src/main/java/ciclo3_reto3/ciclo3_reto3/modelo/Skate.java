@@ -18,7 +18,7 @@ import javax.persistence.Table;
  *
  * @author Jhohan
  */
-
+@SuppressWarnings({"unchecked", "deprecated"})
 @Entity
 @Table(name = "skate")
 public class Skate implements Serializable {

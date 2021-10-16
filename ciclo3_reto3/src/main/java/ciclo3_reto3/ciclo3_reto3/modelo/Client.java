@@ -20,7 +20,7 @@ import javax.persistence.Table;
  *
  * @author Mrcro
  */
-
+@SuppressWarnings({"unchecked", "deprecated"})
 @Entity
 @Table(name = "client")
 public class Client implements Serializable {

@@ -19,7 +19,7 @@ import javax.persistence.Table;
  *
  * @author Jhohan
  */
-
+@SuppressWarnings({"unchecked", "deprecated"})
 @Entity
 @Table(name = "category")
 public class Category implements Serializable {

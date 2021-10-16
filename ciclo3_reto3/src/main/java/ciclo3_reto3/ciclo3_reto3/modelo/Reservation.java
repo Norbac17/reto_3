@@ -3,7 +3,6 @@ package ciclo3_reto3.ciclo3_reto3.modelo;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import java.io.Serializable;
-import javax.persistence.CascadeType;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -18,6 +17,7 @@ import javax.persistence.Table;
  *
  * @author Mrcro
  */
+@SuppressWarnings({"unchecked", "deprecated"})
 @Entity
 @Table(name = "reservation")
 public class Reservation implements Serializable {
